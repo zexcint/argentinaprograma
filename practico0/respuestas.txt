@@ -1,0 +1,23 @@
+Respuestas:
+
+Ejercicio 1:
+ (a) El valor que retorna resta.js es 8
+
+ (b) El valor que retorna multiplicacion.js es 204
+
+Ejercicio 2:
+ (a) El area del rectangulo es 15cm
+
+ (b) El area del rectangulo es 66.25cm
+
+Ejercicio 3:
+ (a) 50F son 10C
+
+ (b) 75F son 23.89C
+
+Ejercicio 4:
+ (a) El promedio entre 5, 7 y 9 es igual a 7
+
+ (b) El promedio entre -2, -3, -8 es igual a -4.333333333333333
+
+ (c) El promedio entre -1.2, 5.3, -3.3 es igual a 0.2666666666666666
