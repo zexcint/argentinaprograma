@@ -7,17 +7,28 @@ A) Ejercicio de búsqueda de números: Escribe un programa que busque un número
 
 let array = [2, 54, 31, 997, 282, 40];
 
-if (array.includes(numero)) {
+/* if (array.includes(numero)) {
   console.log('El indice del número ingresado es: ' + array.indexOf(numero));
 } else {
   console.log('El número no existe en el arreglo');
 }
+ */
 
-
-for (let i = 0; i < array.length; i++) {
+/* for (let i = 0; i < array.length; i++) {
   if (array.includes(array[i])) {
     console.log(`El indice de ${array[i]} es: ` + array.indexOf(array[i]));
   } else {
     console.log('El número no existe en el arreglo');
+  }
+} */
+
+// Actualizado
+for (let i = 0; i < array.length; i++) {
+  if (array.includes(numero)) {
+    console.log(`El indice de ${numero} es: ` + array.indexOf(numero));
+    break;
+  } else  {
+    console.log('Número no encontrado en el array');
+    break;
   }
 }
