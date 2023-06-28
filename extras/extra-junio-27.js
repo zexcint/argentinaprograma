@@ -17,6 +17,7 @@ console.log(calcularParImpar(15));
 */
 
 function longitudDeLaFrase(cadena) {
-  return cadena.length;
+  let x = cadena.split(' ');
+  return x.length;
 }
-console.log(longitudDeLaFrase('Hola Mundo'));
+console.log(longitudDeLaFrase('Hola Planeta Tierra'));
